@@ -1,5 +1,6 @@
 # codetutorials
 This is a list of tutorials from around the world to help you to learn to code on your own or with friends
+
 Open Learn to Code - AU
 ================================
 
@@ -119,6 +120,17 @@ Socket.io
 ------
 A real time message passing code to allow Web pages to get real time updates from NodeJS Application Servers.
 [Quickly get a basic Socket.io demo running](https://gomix.com/#!/project/socketio-chat)
+
+RabbitMQ
+--------
+RabbitMQ is a platform that allows your application processes to safely store messages, jobs to be done or data in a buffer until the other process that needs is ready to use it. It allows this data to be interconnected between dozens of languages and platforms
+
+Publishers send data and Consumers use the data.
+
+[RabbitMQ Hello World](https://www.rabbitmq.com/tutorials/tutorial-one-java.html)
+
+MQQT
+----
 
 Java
 ----
@@ -246,6 +258,12 @@ DevOps & System Admin
 =====================
 
 We used to call this area Systems Admin but the truth is that so many of these roles have morphed from system administrators into what we called DevOps ie they have responsibility for keeping your live webservice running. It's an important and massively growing field and one you won't find in most University courses.
+
+Linux
+-----
+
+Database Admin
+--------------
 
 [MongoDB cluster migration with zero downtime — Checkr Engineering](https://medium.com/checkr/mongodb-cluster-migration-with-zero-downtime-f4e294c29bef#.q7bsa4k5o)
 [ Checkr/go-sync-mongo - Live Migration for MongoDB Clusters](https://github.com/checkr/go-sync-mongo)
