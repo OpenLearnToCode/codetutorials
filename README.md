@@ -21,6 +21,29 @@ There are lots of gaps, please fill them...
 Thanks 
 [@mikenicholls88](https://twitter.com/mikenicholls88)
 
+Tools
+=====
+Come back here to work out how to get what tools you need to get your code running. Some of the tutorials that follow may have self contained environments where everything is supplied in the browser but some of the older languages may require you to install tools on your machine.
+
+Bitnami is a company who has developed a whole bunch of packaged installations to take the drudge work out of installing the various components that are needed to run modern web stacks, LAMP WAMP and MAMP are prepackaged Apache Web Server, MySQL Database and Php language installers.
+
+[LAMP - Linux Apache MYSQL, PHP,](https://bitnami.com/stack/lamp/installer)
+
+[WAMP - Windows Apache MYSQL, PHP,](https://bitnami.com/stack/wamp)
+
+[MAMP - Mac Apache MYSQL, PHP,](https://bitnami.com/stack/mamp)
+
+[MEANStack - Mongo, Express, Angular, NodeJS](http://mean.io/)
+
+Code Editors & Version Control
+------------
+
+[Atom](https://atom.io/)
+
+[Brackets](http://brackets.io/)
+
+[Github - This is essential for keeping your code safe and your sanity](https://guides.github.com/activities/hello-world/)
+
 Languages
 =========
 The basics
@@ -29,36 +52,50 @@ HTML/CSS
 HTML & CSS are the languages that control the layout, colours, fonts and images to display the data, functions and features that our web page and app code generates. There are a few well known frameworks that offer pre-built templates and code to make developing pages faster and more professional including BootStrap and Material Design.
 
 [Quickly Build Your First Web Page with Material Design](https://gomix.com/#!/project/material-design)
+
 [Learning to code your first web page](http://learn.shayhowe.com/html-css/building-your-first-web-page/)
 
 Javascript
 ----------
 Javascript is what powers the functionality of most of our web interfaces. Although HTML and CSS is what gives us the look and feel, Javascript is what gives us the functionality to make the features work.
 
+I found this super useful when trying to understand the basic structures of Javascript
+
+[Model-View-Controller (MVC) Explained -- With Legos](https://realpython.com/blog/python/the-model-view-controller-mvc-paradigm-summarized-with-legos/)
+
 [GoMix - Real Time Javascript Tutorial & Live Code Editor & Debugger](https://gomix.com/#!/project/javascripting) Im super excited about this tool for learning.
 
 [Self Paced Javascript Tutorial](https://www.codecademy.com/learn/javascript)
 
-Frameworks & Libraries
+JS Frameworks & Libraries
 ----------
 Frameworks are pre written Javascript code that performs various functions needed to build web apps. There are literally dozens of these, here are the most popular with live demos and code.
 [Angular](http://todomvc.com/examples/angularjs/#/)
+
 [React](http://todomvc.com/examples/react/#/)
+
 [JQuery](http://todomvc.com/examples/jquery/#/all)
+
 There is a pretty extensive list of frameworks with demos and working code here http://todomvc.com/
 
 Mobile
 ------
+
+Need lots of help here - not my area of expertise
 React
 Swift
 Java
 Android
 iOS
+[AMP (Googles answer to Facebook Instant Articles)](https://www.ampproject.org/)
+
 
 Python
 ------
 Although relatively old this is still the language that powers large scale web backend services, primarily around scalable systems that require intensive computation, crawling and machine learning. Most of the popular machine learning frameworks use Python.
 
+Interactive Python Tutorial 
+[enter link description here](https://www.learnpython.org/)
  
 PHP
 ---
@@ -70,7 +107,8 @@ NodeJS
 ------
 Javascript for Servers and backend systems. Relatively new this has now come of age and is the preferred backend for most new web startups. It is basically Javascript from Google Chrome running in a server application, its extremely fast for serving applications or real time messaging or data.
 
-Forms part of [MEAN Stack](http://mean.io/) 
+Node forms part of [MEAN Stack](http://mean.io/) 
+
 [GoMix - Real Time NodeJS Tutorial & Live Code Editor & Debugger](https://gomix.com/#!/project/node-beginner)
 
 Express
@@ -80,6 +118,7 @@ A front end framework which allows you to build Web apps to talk to NodeJS.
 Socket.io
 ------
 A real time message passing code to allow Web pages to get real time updates from NodeJS Application Servers.
+[Quickly get a basic Socket.io demo running](https://gomix.com/#!/project/socketio-chat)
 
 Java
 ----
@@ -120,13 +159,27 @@ Very scalable, very easy to prototype with, can be configured to be highly fault
 
 Redis
 -----
-New age, highly scalable, hardcore database for high volume low complexity data models that need reliability.
+New age, highly scalable, hardcore database for high volume low complexity data models that need reliability and speed. Twitter uses this at the data layer that supplies your personal tweet timeline to the client.
 
-Not an expert, please add your contributions.
+[Getting Started with Redis](https://redis.io/topics/quickstart)
+
+Im not an expert, please add your contributions.
 
 MySQL
 -----
 Bit old school but basically still powers a massive chunk of the worlds webservers.
+
+[Everything you need to get started with MySQL](https://code.tutsplus.com/tutorials/everything-you-need-to-get-started-with-mysql--net-3076)
+
+This one is crap, if you know a better one please add it
+
+PostgreSQL
+----------
+Sort of like MySQLs big scalable high brow brother
+
+
+Big Data and Search
+===================
 
 Hadoop
 ------
@@ -140,24 +193,54 @@ Lucerne
 ElasticSearch
 ----------------------------------
 
+Cassandra
+---------
+
+APIs
+====
+
+http://graphql.org/
+
+
 Machine Learning
 ================
-This is hot, mostly built with Python, 2016 has been the year that Google, Facebook and AWS have released numerous open source contributions to the space. The biggest challenge now is getting enough data for your chosen field and applying it.
+This is a super hot space, mostly built with Python, 2016 has been the year that Google, Facebook and AWS have released numerous open source contributions to the space. The biggest challenge now is getting enough data for your chosen field and applying it.
+
+[AI Experiments with Google](https://aiexperiments.withgoogle.com/)
+This is a great resource to get an overview of what machine learning is about and some practical examples of the techniques
 
 Frameworks
 ----------
-Tensorflow
-Scikit
-Torch
+Basic 101 tutorials for each of the major frameworks
+
+[Googles Tensorflow 101 - Recognising Numbers using Neural Networks](https://www.tensorflow.org/tutorials/mnist/tf/)
+
+[Scikit - An open source Python library that implements a range of machine learning, preprocessing, cross-validation and visualization algorithms](http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
+
+[Torch - 60 minute Getting Started](https://github.com/soumith/cvpr2015/blob/master/Deep%20Learning%20with%20Torch.ipynb) 
+Torch is a scientific computing framework with wide support for machine learning algorithms that puts GPUs first.
+
+[Open AI Gym - A toolkit for developing AI solutions](https://gym.openai.com/)
 
 
 Computer Vision
 ---------------
 
 [Traffic Sign Recognition with TensorFlow](https://medium.com/@waleedka/traffic-sign-recognition-with-tensorflow-629dffc391a6?source=userActivityShare-eadbcb91bef0-1482211721)
+
 [Recognising Faces](https://github.com/davidsandberg/facenet)
 
-Training Models
+[Imagenet Competition Image Dataset](http://image-net.org/download-imageurls)
+
+[Youtube 8 Million - Annotated Video Machine Learning Dataset with 8 million videos to teach your machine learning models](https://research.google.com/youtube8m/)
+
+
+
+Self Driving Cars
+=================
+
+[Universe.Ai Training Models using Games](https://universe.openai.com/)
+
 
 DevOps & System Admin
 =====================
@@ -169,6 +252,12 @@ We used to call this area Systems Admin but the truth is that so many of these r
 [MongoDB Replica Sets with Kubernetes — Google Cloud Platform — Community](https://medium.com/google-cloud/mongodb-replica-sets-with-kubernetes-d96606bd9474?source=userActivityShare-eadbcb91bef0-1482211823)
 [MongoDB Replicaset running on Docker Swarm](https://medium.com/lucjuggery/mongodb-replica-set-on-swarm-mode-45d66bc9245#.u5o6xldp9)
 [Mongo db backup script](https://medium.com/synapseinc/mongo-db-backup-script-1af12d30564a#.qxf6osm16)
+
+Tracking & Measuring
+--------------------
+Google Analytics
+Segment.io
+Mixpanel
 
 
 Docker
